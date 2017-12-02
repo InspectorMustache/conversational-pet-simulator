@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name" translatable="false">Conversational Pet Simulator</string>
+    <string name="animal_cat">Cat</string>
+    <string name="animal_dog">Dog</string>
+    <string name="animal_chicken">Chicken</string>
+    
+    <string-array name="cat_vowels">
+        <item>e</item>
+        <item>o</item>
+        <item>io</item>
+        <item>eo</item>
+        <item>ee</item>
+        <item>oo</item>
+        <item>ii</item>
+    </string-array>
+
+    <string-array name="cat_consonants">
+        <item>m</item>
+        <item>w</item>
+        <item>ww</item>
+        <item>mm</item>
+        <item>mn</item>
+    </string-array>
+
+    <string-array name="cat_start_letters">
+        <item>M</item>
+        <item>Mm</item>
+    </string-array>
+
+    <string-array name="cat_end_letters">
+        <item>w</item>
+    </string-array>
+
+    <string-array name="cat_special_strings">
+        <item>*purr*</item>
+        <item>*rrrrrr*</item>
+        <item>*zzzzzzz*</item>
+    </string-array>
+
+</resources>

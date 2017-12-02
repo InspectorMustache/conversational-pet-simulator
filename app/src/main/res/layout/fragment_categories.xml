@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.inspmustache.android.conversationalpetsimulator.MainActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/cat_entry"
+        style="@style/MainEntryOdd"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            style="@style/MainEntryTextView"
+            android:text="@string/animal_cat" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/dog_entry"
+        style="@style/MainEntryEven"
+        app:layout_constraintTop_toBottomOf="@+id/cat_entry">
+
+        <TextView
+            style="@style/MainEntryTextView"
+            android:text="@string/animal_dog" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/chicken_entry"
+        style="@style/MainEntryOdd"
+        app:layout_constraintTop_toBottomOf="@id/dog_entry">
+
+        <TextView
+            style="@style/MainEntryTextView"
+            android:text="@string/animal_chicken" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

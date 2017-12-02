@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="animal_cat">Cat</string>
+    <string name="animal_chicken">Chicken</string>
+    <string name="animal_dog">Dog</string>
+</resources>

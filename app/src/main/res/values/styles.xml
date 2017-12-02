@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Style for an entry on the category selection screen-->
+    <style name="MainEntryTextView">
+        <item name="android:textColor">@color/textDefault</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+    </style>
+
+    <!--Style for uneven entries on the categroy selection screen-->
+    <style name="MainEntryOdd">
+        <item name="android:background">@color/interchangeOdd</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/main_entry_height</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+    </style>
+
+    <!--Style for uneven entries on the categroy selection screen-->
+    <style name="MainEntryEven">
+        <item name="android:background">@color/interchangeEven</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/main_entry_height</item>
+        <item name="layout_constraintEnd_toEndOf">parent</item>
+        <item name="layout_constraintStart_toStartOf">parent</item>
+    </style>
+
+    <!--Style for Speech bubbles-->
+    <style name="SpeechBubble">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <!--Style for animal speech bubbles-->
+    <style name="AnimalSpeechBubble" parent="SpeechBubble">
+        <item name="android:background">@drawable/bubble_left</item>
+        <item name="android:textColor">@color/textSecondary</item>
+        <item name="android:backgroundTint">@android:color/white</item>
+    </style>
+
+    <!--Style for user speech bubbles-->
+    <style name="UserSpeechBubble" parent="SpeechBubble">
+        <item name="android:background">@drawable/bubble_right</item>
+        <item name="android:backgroundTint">@color/colorLightGrey</item>
+        <item name="android:textColor">@color/textDefault</item>
+    </style>
+
+</resources>
